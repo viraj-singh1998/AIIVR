@@ -1,0 +1,16 @@
+Patient Name: Jaime
+Age: 45
+Patient ID: 0001
+
+Chief Complaint: Severe infection in right hand
+
+Diagnosis: Severe cellulitis with necrosis
+
+Tests Conducted:
+- Blood cultures, Wound culture, X-ray of hand
+
+Treatment Plan:
+- Medications: IV antibiotics, Pain management
+- Additional Notes: Patient informed of the need for amputation and possible prosthesis post-recovery.
+
+- Surgical Procedure: Amputation of right hand

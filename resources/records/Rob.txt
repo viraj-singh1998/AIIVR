@@ -1,0 +1,15 @@
+Patient Name: Rob
+Age: 29
+Patient ID: 0002
+
+Chief Complaint: Multiple lacerations, Pain, Bruising
+
+Diagnosis: Multiple lacerations and contusions due to biking accident
+
+Tests Conducted:
+- Wound assessment, X-rays to rule out fractures
+
+Treatment Plan:
+- Medications: Tetanus booster, Topical antibiotic, Painkillers
+- Additional Notes: Wounds cleaned and sutured. Patient advised on wound care and to return if signs of infection occur.
+

@@ -1,0 +1,15 @@
+Patient Name: Jeoffrey
+Age: 17
+Patient ID: 0004
+
+Chief Complaint: Breathing problems, Restricted airway, Cough
+
+Diagnosis: Asthma exacerbation
+
+Tests Conducted:
+- Spirometry, Chest X-ray, Oxygen Saturation Test
+
+Treatment Plan:
+- Medications: Albuterol Inhaler, Oral corticosteroids, Montelukast
+- Additional Notes: Patient advised to avoid allergens and irritants, and to follow up in 2 weeks.
+

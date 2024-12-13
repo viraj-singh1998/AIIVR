@@ -1,0 +1,15 @@
+Patient Name: Ramsay
+Age: 32
+Patient ID: 0003
+
+Chief Complaint: Dog bite on left leg
+
+Diagnosis: Dog bite with puncture wounds
+
+Tests Conducted:
+- Wound cleaning, Rabies vaccination status check
+
+Treatment Plan:
+- Medications: Antibiotics, Rabies vaccine (if needed), Tetanus booster
+- Additional Notes: Patient advised to monitor for signs of infection. Follow-up scheduled in 3 days.
+

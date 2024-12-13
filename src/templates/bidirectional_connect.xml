@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Connect>
+    <Stream url="wss://{{ngrok_url}}/{{patient_name}}"></Stream>
+  </Connect>
+  <Say>Goodbye</Say>
+  <Pause length="{{max_duration}}"/>
+</Response>
