@@ -41,7 +41,7 @@ patient_info = {}   # simulation for key-value DB
 @app.route('/make_call/<patient_name>', methods=['GET'])
 def make_call(patient_name):
     global callSid
-    to_number = '+918433426632'
+    to_number = '+91-<number-thru-config' # TODO
     from_number = '+18564153853'
     call = client.calls.create(
         to=to_number,
