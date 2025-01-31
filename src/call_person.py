@@ -14,8 +14,8 @@ from utils import get_ngrok_url_and_port, transcribe_audio_bytes, text_to_mulaw_
 load_dotenv()
 
 # Setting up Twilio client
-account_sid = os.environ["TWILIO_ACCOUNT_SID_1"]
-auth_token = os.environ["TWILIO_AUTH_TOKEN_1"]
+account_sid = os.environ["TWILIO_ACCOUNT_SID"]
+auth_token = os.environ["TWILIO_AUTH_TOKEN"]
 client = Client(account_sid, auth_token)
 
 MAX_DURATION = os.environ['MAX_DURATION']
@@ -32,7 +32,7 @@ audio_buffer = b''
 @app.route("/start/<patient_name>", methods=["GET"])
 def make_call(patient_name):
     from_number = '+18564153853'
-    to_number = '+918433426632'
+    to_number = 'your-number-here'
     print('making call')
     # Create the call
     call = client.calls.create(

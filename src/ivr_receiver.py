@@ -15,14 +15,14 @@ from utils import *
 load_dotenv()
 
 # Setting up Twilio client
-account_sid = os.environ["TWILIO_ACCOUNT_SID_2"]
-auth_token = os.environ["TWILIO_AUTH_TOKEN_2"]
+account_sid = os.environ["TWILIO_ACCOUNT_SID"]
+auth_token = os.environ["TWILIO_AUTH_TOKEN"]
 client = Client(account_sid, auth_token)
 
 MAX_DURATION = os.environ['MAX_DURATION']
 NGROK_URL, HTTP_SERVER_PORT = get_ngrok_url_and_port()
 HTTP_SERVER_PORT = 5001
-PETER_PHONE = "+918433426632"
+PETER_PHONE = "your-number-here"
 
 print(f"NGROK_URL: {NGROK_URL}, HTTP_SERVER_PORT: {HTTP_SERVER_PORT}")
 

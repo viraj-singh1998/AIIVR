@@ -1,2 +1,12 @@
-*.env
-*.ipynb
+# Env variables
+.env
+
+# Bytecode
+__pycache__/
+
+# Metadata
+.DS_Store
+
+# Misc
+.ipynb
+check.py
