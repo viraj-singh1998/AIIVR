@@ -16,22 +16,30 @@ This project integrates Twilio’s APIs over websockets for call handling and me
 ### Setup
 
 1. Clone the repository:
-   git clone https://github.com/viraj-singh1998/AIIVR.git
-   cd AIIVR
+```bash
+git clone https://github.com/viraj-singh1998/AIIVR.git
+cd AIIVR
+```
 
-2. Install dependencies:
-   pip install -r requirements.txt
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-3. Set up environment variables for Twilio and Assembly AI:
-   - `TWILIO_ACCOUNT_SID`
-   - `TWILIO_AUTH_TOKEN`
-   - `ASSEMBLYAI_API_KEY`
-   - `OPENAI_API_KEY`
+4. Set up environment variables for Twilio and Assembly AI:
+```bash
+export TWILIO_ACCOUNT_SID=....
+export TWILIO_AUTH_TOKEN=....
+export ASSEMBLYAI_API_KEY=....
+export OPENAI_API_KEY=....
+```
 
-4. Run the Flask application:
-   python ivr_caller.py
+7. Run the Flask application:
+```bash
+python ivr_caller.py
+```
 
-5. The app will be available on `http://localhost:5000`. You can use ngrok or any similar service to expose your local server to the internet for testing with Twilio.
+8. The app will be available on `http://localhost:5000`. You can use ngrok or any similar service to expose your local server to the internet for testing with Twilio.
 
 ## Usage
 
